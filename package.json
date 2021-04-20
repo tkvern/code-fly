@@ -7,6 +7,7 @@
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-angular": "^12.1.1",
     "@umijs/fabric": "^2.5.7",
+    "@umijs/yorkie": "^2.0.5",
     "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.24.0",
