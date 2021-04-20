@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@umijs/fabric": "^2.5.7",
+    "commitizen": "^4.2.3",
     "eslint": "^7.24.0",
     "eslint-plugin-prettier": "^3.4.0",
     "husky": "^6.0.0",
