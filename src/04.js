@@ -8,7 +8,6 @@ function find(target, matrix) {
   if (matrix === null || matrix.length === 0 || matrix[0].length === 0) {
     return false
   }
-  console.log(matrix)
   let rows = matrix.length
   let cols = matrix[0].length
   let r = 0

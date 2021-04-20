@@ -13,4 +13,8 @@ module.exports = {
     ecmaVersion: 8, // or 2017
   },
   extends: 'eslint:recommended',
+  globals: {
+    expect: true,
+    test: true,
+  },
 }
