@@ -7,6 +7,8 @@
     "test": "test"
   },
   "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-angular": "^12.1.1",
     "@umijs/fabric": "^2.5.7",
     "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
@@ -51,8 +53,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "dependencies": {
-    "@commitlint/cli": "^12.1.1"
   }
 }

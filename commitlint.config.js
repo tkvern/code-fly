@@ -1,3 +1,1 @@
-module.exports = {
-  // 自定义规则
-}
+module.exports = { extends: ['@commitlint/config-angular'] }
