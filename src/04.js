@@ -5,6 +5,7 @@
  * @returns
  */
 function find(target, matrix) {
+  console.log(matrix)
   if (matrix === null || matrix.length === 0 || matrix[0].length === 0) {
     return false
   }
