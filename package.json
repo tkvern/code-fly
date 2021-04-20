@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "文档链接 [剑指 Offer 题解](https://github.com/CyC2018/CS-Notes/blob/master/notes/%E5%89%91%E6%8C%87%20Offer%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)",
   "main": "03.js",
-  "directories": {
-    "test": "test"
-  },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-angular": "^12.1.1",
@@ -23,7 +20,8 @@
   "scripts": {
     "test": "jest --coverage",
     "commit": "git-cz",
-    "release": "standard-version"
+    "release": "standard-version",
+    "lint-staged": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -36,7 +34,7 @@
   },
   "homepage": "https://github.com/tkvern/code-fly#readme",
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+    "**/*.{js,jsx,tsx,ts,less,md,json}": [
       "eslint --ext .js --fix",
       "prettier --write",
       "git add"
