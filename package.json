@@ -22,7 +22,6 @@
   },
   "scripts": {
     "test": "jest --coverage",
-    "lint-staged": "lint-staged",
     "commit": "git-cz",
     "release": "standard-version"
   },
