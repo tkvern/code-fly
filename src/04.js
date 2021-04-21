@@ -10,10 +10,10 @@ function find(target, matrix) {
   }
   let rows = matrix.length
   let cols = matrix[0].length
-  let r = 0
-  let c = cols - 1
+  let r = 0 // 行标
+  let c = cols - 1 // 列标
   while (r <= rows - 1 && c >= 0) {
-    if (target == matrix[r][c]) {
+    if (target === matrix[r][c]) {
       return true
     } else if (target > matrix[r][c]) {
       r++
