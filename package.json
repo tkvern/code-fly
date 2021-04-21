@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/tkvern/code-fly#readme",
   "lint-staged": {
-    "**/*.{js,jsx,tsx,ts}": "eslint --ext --fix",
+    "**/*.{js,jsx,tsx,ts}": "eslint --ext .js --fix",
     "**/*.{js,jsx,tsx,ts,less,md,json}": "prettier --write"
   },
   "husky": {
