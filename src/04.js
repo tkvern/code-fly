@@ -1,7 +1,7 @@
 /**
  *
- * @param {*} target 目标元素
- * @param {*} matrix 矩阵(二维数组)
+ * @param {number} target 目标元素
+ * @param {number[][]} matrix 矩阵(二维数组)
  * @returns
  */
 function find(target, matrix) {
