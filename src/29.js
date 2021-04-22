@@ -1,6 +1,6 @@
 /**
  * 按顺时针打印矩阵
- * @param {*} matrix 矩阵(二维数组)
+ * @param {number[][]} matrix 矩阵(二维数组)
  */
 function printMatrix(matrix) {
   let ret = []
