@@ -1,3 +1,6 @@
+/**
+ * 包含min函数的栈
+ */
 let MinStack = function () {
   this.stack = [] // 栈
   this.minStack = [] // 最小栈

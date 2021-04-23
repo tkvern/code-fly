@@ -1,3 +1,6 @@
+/**
+ * 用两个栈实现队列
+ */
 let Queue = function () {
   this.in = [] // 入栈区
   this.out = [] // 出栈区
