@@ -1,41 +1,37 @@
 /**
+ * 快速排序
+ * @param {*} arr
+ * @returns
+ */
+function quickSort(arr) {
+  if (arr.length <= 1) {
+    return arr
+  }
+
+  let pivotIndex = Math.floor(arr.length / 2)
+  let pivot = arr.splice(pivotIndex, 1)[0]
+
+  let left = []
+  let right = []
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < pivot) {
+      left.push(arr[i])
+    } else {
+      right.push(arr[i])
+    }
+  }
+
+  return quickSort(left).concat([pivot], quickSort(right))
+}
+
+/**
  * 查找最小的k个数
  * @param {number[]} arr
  * @param {number} k
  */
 function findKithSmallest(arr, k) {
-  let left = 0
-  let right = arr.length - 1
-
-  while (left < right) {
-    let i = partition(left, right)
-    if (i <= k) {
-      left = i + 1
-    }
-
-    if (i >= k) {
-      right = i - 1
-    }
-  }
-
-  function partition(left, right) {
-    let pivot = arr[left]
-    while (left < right) {
-      while (left < right && arr[right] >= pivot) {
-        right--
-      }
-      arr[left] = arr[right]
-
-      while (left < right && arr[left] <= pivot) {
-        left++
-      }
-      arr[right] = arr[left]
-    }
-
-    arr[left] = pivot
-    return left
-  }
-  return arr.slice(0, k)
+  return quickSort(arr).slice(0, k)
 }
 
 module.exports = findKithSmallest
