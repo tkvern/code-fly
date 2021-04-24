@@ -14,8 +14,8 @@ test('41 数据流中的中位数 - 示例1', () => {
 
 test('41 数据流中的中位数 - 示例2', () => {
   let medianFinder = new MedianFinder()
-  medianFinder.addNum(2)
-  expect(medianFinder.findMedian()).toBe(2)
   medianFinder.addNum(3)
+  expect(medianFinder.findMedian()).toBe(3)
+  medianFinder.addNum(2)
   expect(medianFinder.findMedian()).toBe(2.5)
 })
