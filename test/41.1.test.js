@@ -1,6 +1,6 @@
-const MedianFinder = require('../src/41')
+const MedianFinder = require('../src/41.1')
 
-test('41 数据流中的中位数 - 示例1', () => {
+test('41.1 数据流中的中位数 - 示例1', () => {
   let medianFinder = new MedianFinder()
 
   medianFinder.addNum(1)
@@ -12,7 +12,7 @@ test('41 数据流中的中位数 - 示例1', () => {
   expect(medianFinder.findMedian()).toBe(2)
 })
 
-test('41 数据流中的中位数 - 示例2', () => {
+test('41.1 数据流中的中位数 - 示例2', () => {
   let medianFinder = new MedianFinder()
   medianFinder.addNum(3)
   expect(medianFinder.findMedian()).toBe(3)

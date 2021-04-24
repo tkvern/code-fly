@@ -5,6 +5,10 @@ let MedianFinder = function () {
   this.val = []
 }
 
+/**
+ * 添加元素
+ * @param {number} num
+ */
 MedianFinder.prototype.addNum = function (num) {
   let left = 0
   let right = this.val.length
@@ -19,6 +23,10 @@ MedianFinder.prototype.addNum = function (num) {
   this.val.splice(left, 0, num)
 }
 
+/**
+ * 查找中位数
+ * @returns {number}
+ */
 MedianFinder.prototype.findMedian = function () {
   let mid = ~~(this.val.length / 2)
   return this.val.length % 2
