@@ -11,3 +11,15 @@ test('59.1 滑动窗口的最大值 用例2', () => {
   const k = 3
   expect(maxSlidingWindow(nums, k)).toEqual([4, 4, 6, 6, 6, 5])
 })
+
+test('59.1 滑动窗口的最大值 用例3', () => {
+  const nums = []
+  const k = 0
+  expect(maxSlidingWindow(nums, k)).toEqual([])
+})
+
+test('59.1 滑动窗口的最大值 用例4', () => {
+  const nums = [1, 2, 3]
+  const k = 1
+  expect(maxSlidingWindow(nums, k)).toEqual([1, 2, 3])
+})
