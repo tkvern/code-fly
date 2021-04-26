@@ -3,7 +3,7 @@ const { reversePrint, NodeList } = require('../src/06')
 test('06 从尾到头打印链表 - 用例1', () => {
   const params = [1, 3, 2]
   const nodeList = new NodeList()
-  params.map((item) => {
+  params.forEach((item) => {
     nodeList.append(item)
   })
 
