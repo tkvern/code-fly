@@ -5,7 +5,7 @@
   "main": "03.js",
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
-    "@commitlint/config-angular": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
     "@umijs/fabric": "^2.5.7",
     "@umijs/yorkie": "^2.0.5",
     "commitizen": "^4.2.3",
