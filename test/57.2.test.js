@@ -2,7 +2,6 @@ let findContinuousSequence = require('../src/57.2')
 
 test('57.2 和为 s 的连续正数序列 - 用例1', () => {
   const target = 9
-  console.log(findContinuousSequence(target))
   expect(findContinuousSequence(target)).toEqual([
     [2, 3, 4],
     [4, 5],
