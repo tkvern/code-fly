@@ -3,7 +3,7 @@
  * @param {number[]} nums
  * @param {number} target
  */
-let twoSum = function (nums, target) {
+function twoSum(nums, target) {
   let left = 0
   let right = nums.length - 1
   while (left < right) {
