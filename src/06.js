@@ -1,17 +1,19 @@
 function Node(value) {
-  this.value = value //当前节点的元素
-  this.next = null //下一个节点链接
+  this.value = value
+  this.next = null
 }
 
 function NodeList() {
-  //节点
   this.head = null
   this.length = 0
 }
 
+/**
+ * 增加链表元素
+ * @param {*} value
+ */
 NodeList.prototype.append = function (value) {
   let node = new Node(value)
-
   if (this.length === 0) {
     this.head = node
   } else {
@@ -19,14 +21,14 @@ NodeList.prototype.append = function (value) {
     while (current.next) {
       current = current.next
     }
-
     current.next = node
   }
-  this.length += 1
+  this.length++
 }
+
 /**
- *
- * @param {Node} head
+ * 逆序列输出链表
+ * @param {*} head
  * @returns
  */
 function reversePrint(head) {

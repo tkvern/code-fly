@@ -33,7 +33,7 @@
 | [03](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof) | [数组中重复的数字](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9803.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97/README.md) | `数组`,`哈希表` | 简单 | ✅ |
 | [04](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof) | [二维数组中的查找](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9804.%20%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE/README.md) | `数组`,`双指针` | 简单 | ✅ |
 | [05](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof) | [替换空格](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9805.%20%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC/README.md) |  | 简单 | ✅ |
-| [06](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof) | [从尾到头打印链表](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9806.%20%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8/README.md) |  | 简单 |  |
+| [06](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof) | [从尾到头打印链表](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9806.%20%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8/README.md) |  | 简单 | ✅ |
 | [07](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof) | [重建二叉树](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9807.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91/README.md) | `树`,`递归` | 中等 |  |
 | [09](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof) | [用两个栈实现队列](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9809.%20%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97/README.md) | `栈`,`设计` | 简单 | ✅ |
 | [10- I](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof) | [斐波那契数列](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9810-%20I.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/README.md) | `递归` | 简单 |  |
