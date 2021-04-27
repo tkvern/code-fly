@@ -24,6 +24,7 @@ NodeList.prototype.append = function (value) {
     current.next = node
   }
   this.length++
+  return node
 }
 
 /**
@@ -41,4 +42,5 @@ function reversePrint(head) {
   }
   return stack.reverse()
 }
+
 module.exports = { reversePrint, NodeList }
