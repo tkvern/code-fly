@@ -5,3 +5,9 @@ test('07 重建二叉树', () => {
   const inorder = [9, 3, 15, 20, 7]
   expect(buildTree(preorder, inorder).val).toEqual(3)
 })
+
+test('07 重建二叉树 - 为空', () => {
+  const preorder = []
+  const inorder = [9, 3, 15, 20, 7]
+  expect(buildTree(preorder, inorder)).toBe(null)
+})

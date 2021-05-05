@@ -9,3 +9,8 @@ test('11 旋转数组的最小数字 - 用例2', () => {
   let params = [2, 2, 2, 0, 1]
   expect(minArray(params)).toBe(0)
 })
+
+test('11 旋转数组的最小数字 - 用例3', () => {
+  let params = [2, 2, 2, 2, 2]
+  expect(minArray(params)).toBe(2)
+})
