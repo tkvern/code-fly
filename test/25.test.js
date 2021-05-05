@@ -1,7 +1,7 @@
 let sortMerge = require('../src/25')
 let { NodeList } = require('../src/18.1')
 
-test('25. 合并两个排序的链表', () => {
+test('25 合并两个排序的链表', () => {
   let nodeList1 = new NodeList()
   let nodeList2 = new NodeList()
 
