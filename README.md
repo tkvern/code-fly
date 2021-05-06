@@ -40,7 +40,7 @@
 | [10- II](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof) | [青蛙跳台阶问题](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9810-%20II.%20%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98/README.md) | `递归` | 简单 | ✅ |
 | [11](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof) | [旋转数组的最小数字](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9811.%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97/README.md) | `二分查找` | 简单 | ✅ |
 | [12](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof) | [矩阵中的路径](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9812.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84/README.md) | `动态规划` | 中等 | ✅ |
-| [13](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof) | [机器人的运动范围](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9813.%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4/README.md) |  | 中等 |  |
+| [13](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof) | [机器人的运动范围](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9813.%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4/README.md) |  | 中等 | ✅ |
 | [14- I](https://leetcode-cn.com/problems/jian-sheng-zi-lcof) | [剪绳子](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9814-%20I.%20%E5%89%AA%E7%BB%B3%E5%AD%90/README.md) | `数学`,`动态规划` | 中等 |  |
 | [14- II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof) | [剪绳子 II](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9814-%20II.%20%E5%89%AA%E7%BB%B3%E5%AD%90%20II/README.md) | `数学`,`动态规划` | 中等 |  |
 | [15](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof) | [二进制中 1 的个数](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9815.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0/README.md) | `位运算` | 简单 |  |
