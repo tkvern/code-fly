@@ -44,7 +44,7 @@
 | [14- I](https://leetcode-cn.com/problems/jian-sheng-zi-lcof) | [剪绳子](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9814-%20I.%20%E5%89%AA%E7%BB%B3%E5%AD%90/README.md) | `数学`,`动态规划` | 中等 | ✅ |
 | [14- II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof) | [剪绳子 II](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9814-%20II.%20%E5%89%AA%E7%BB%B3%E5%AD%90%20II/README.md) | `数学`,`动态规划` | 中等 | ✅ |
 | [15](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof) | [二进制中 1 的个数](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9815.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0/README.md) | `位运算` | 简单 | ✅ |
-| [16](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof) | [数值的整数次方](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9816.%20%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9/README.md) | `递归` | 中等 |  |
+| [16](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof) | [数值的整数次方](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9816.%20%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9/README.md) | `递归` | 中等 | ✅ |
 | [17](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof) | [打印从 1 到最大的 n 位数](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9817.%20%E6%89%93%E5%8D%B0%E4%BB%8E1%E5%88%B0%E6%9C%80%E5%A4%A7%E7%9A%84n%E4%BD%8D%E6%95%B0/README.md) | `数学` | 简单 |  |
 | [18](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof) | [删除链表的节点](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9818.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E8%8A%82%E7%82%B9/README.md) | `链表` | 简单 | ✅ |
 | [19](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof) | [正则表达式匹配](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9819.%20%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D/README.md) | `动态规划` | 困难 |  |
