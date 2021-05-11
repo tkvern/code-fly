@@ -1,7 +1,7 @@
 let { NodeList } = require('../src/18.1')
 let deleteDuplication = require('../src/18.2')
 
-test('18 在 O(1) 时间内删除链表节点', () => {
+test('18.2 删除链表中重复的结点', () => {
   const nodeList = new NodeList()
   nodeList.append(1)
   nodeList.append(2)

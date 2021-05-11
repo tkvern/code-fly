@@ -1,7 +1,7 @@
 let reverseList = require('../src/24')
 const { NodeList } = require('../src/18.1')
 
-test('24. 反转链表', () => {
+test('24 反转链表', () => {
   let nodeList = new NodeList()
   nodeList.append(1)
   nodeList.append(2)

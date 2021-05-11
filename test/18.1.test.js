@@ -1,6 +1,6 @@
 let { deleteNode, NodeList } = require('../src/18.1')
 
-test('18 在 O(1) 时间内删除链表节点', () => {
+test('18.1 在 O(1) 时间内删除链表节点', () => {
   const nodeList = new NodeList()
   expect(nodeList.print()).toEqual([])
   nodeList.append(4)
