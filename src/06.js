@@ -1,12 +1,4 @@
-function Node(value) {
-  this.value = value
-  this.next = null
-}
-
-function NodeList() {
-  this.head = null
-  this.length = 0
-}
+const { Node, NodeList } = require('./base')
 
 /**
  * 增加链表元素

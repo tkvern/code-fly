@@ -1,11 +1,4 @@
-/**
- * 二叉树
- * @param {*} val
- */
-function TreeNode(val) {
-  this.val = val
-  this.left = this.right = null
-}
+const { TreeNode } = require('./base')
 
 /**
  * 重建二叉树
