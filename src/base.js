@@ -28,6 +28,11 @@ function createTree(nums) {
       }
     }
   }
+  // 判断最后一个根结点：因为最后一个根结点可能没有右结点，所以单独拿出来处理
+  let lastIndex = nums.length / 2 - 1
+  if (list[lastIndex]) {
+    list[lastIndex].left = list[lastIndex * 2 + 1]
+  }
   return list[0]
 }
 
