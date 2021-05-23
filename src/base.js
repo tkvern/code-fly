@@ -2,32 +2,20 @@
  * 二叉树
  * @param {*} val
  */
-function TreeNode(val) {
+function Tree(val) {
   this.val = val
   this.left = this.right = null
 }
 
 /**
- * 中序构建平衡二叉树
+ * 层序创建二叉树
  * @param {number[]} nums
  * @returns
  */
-function sortedArrayToBST(nums) {
-  function createBalance(start, end) {
-    if (start > end) return null
-    let mid = Math.floor((start + end) / 2)
-    let root = new TreeNode(nums[mid])
-    root.left = createBalance(start, mid - 1)
-    root.right = createBalance(mid + 1, end)
-    return root
-  }
-  return createBalance(0, nums.length - 1)
-}
-
 function createTree(nums) {
   let list = []
   for (let i = 0; i < nums.length; i++) {
-    let node = new TreeNode(nums[i])
+    let node = new Tree(nums[i])
     list.push(node)
   }
   if (list.length > 0) {
@@ -43,12 +31,62 @@ function createTree(nums) {
   return list[0]
 }
 
-function printTree(node) {
-  if (node !== null) {
-    console.log(node.val)
-    printTree(node.left)
-    printTree(node.right)
+/**
+ * 中序构建平衡二叉树
+ * @param {number[]} nums
+ * @returns
+ */
+function sortedArrayToBST(nums) {
+  function createBalance(start, end) {
+    if (start > end) return null
+    let mid = Math.floor((start + end) / 2)
+    let root = new Tree(nums[mid])
+    root.left = createBalance(start, mid - 1)
+    root.right = createBalance(mid + 1, end)
+    return root
   }
+  return createBalance(0, nums.length - 1)
+}
+
+/**
+ * 前序列遍历二叉树
+ * @param {*} root
+ * @returns
+ */
+function preOrderTree(root) {
+  let arr = []
+  function recursion(tree) {
+    if (tree !== null) {
+      arr.push(tree.val)
+      recursion(tree.left)
+      recursion(tree.right)
+    }
+  }
+  recursion(root)
+  return arr
+}
+
+/**
+ * 层序遍历二叉树
+ * @param {*} node
+ */
+function levelOrderTree(root) {
+  if (!root) return []
+  let queue = [root]
+  let res = []
+  while (queue.length) {
+    let temp = []
+    let queueLength = queue.length
+    while (queueLength) {
+      let node = queue.shift()
+      node.left && queue.push(node.left)
+      node.right && queue.push(node.right)
+      queueLength--
+      temp.push(node.val)
+    }
+    res = [...res, ...temp]
+  }
+  return res
 }
 
 /**
@@ -69,10 +107,11 @@ function NodeList() {
 }
 
 module.exports = {
-  TreeNode,
+  Tree,
   Node,
   NodeList,
-  sortedArrayToBST,
   createTree,
-  printTree,
+  preOrderTree,
+  levelOrderTree,
+  sortedArrayToBST,
 }
