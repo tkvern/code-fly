@@ -53,7 +53,7 @@
 | [22](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof) | [链表中倒数第 k 个节点](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9822.%20%E9%93%BE%E8%A1%A8%E4%B8%AD%E5%80%92%E6%95%B0%E7%AC%ACk%E4%B8%AA%E8%8A%82%E7%82%B9/README.md) | `链表`,`双指针` | 简单 | ✅ |
 | [24](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof) | [反转链表](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9824.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/README.md) | `链表` | 简单 | ✅ |
 | [25](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof) | [合并两个排序的链表](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9825.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8/README.md) | `分治算法` | 简单 | ✅ |
-| [26](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof) | [树的子结构](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9826.%20%E6%A0%91%E7%9A%84%E5%AD%90%E7%BB%93%E6%9E%84/README.md) | `树` | 中等 |  |
+| [26](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof) | [树的子结构](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9826.%20%E6%A0%91%E7%9A%84%E5%AD%90%E7%BB%93%E6%9E%84/README.md) | `树` | 中等 | ✅ |
 | [27](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof) | [二叉树的镜像](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9827.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%95%9C%E5%83%8F/README.md) | `树` | 简单 |  |
 | [28](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof) | [对称的二叉树](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9828.%20%E5%AF%B9%E7%A7%B0%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91/README.md) | `树` | 简单 |  |
 | [29](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof) | [顺时针打印矩阵](/lcof/%E9%9D%A2%E8%AF%95%E9%A2%9829.%20%E9%A1%BA%E6%97%B6%E9%92%88%E6%89%93%E5%8D%B0%E7%9F%A9%E9%98%B5/README.md) | `数组` | 简单 | ✅ |
