@@ -80,16 +80,12 @@ function levelOrderTree(root) {
   let queue = [root]
   let res = []
   while (queue.length) {
-    let temp = []
-    let queueLength = queue.length
-    while (queueLength) {
-      let node = queue.shift()
-      node.left && queue.push(node.left)
-      node.right && queue.push(node.right)
-      queueLength--
-      temp.push(node.val)
+    let node = queue.shift()
+    if (!node) continue
+    if (node.val !== null) {
+      res.push(node.val)
     }
-    res = [...res, ...temp]
+    queue.push(node.left, node.right)
   }
   return res
 }
