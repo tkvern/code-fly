@@ -111,6 +111,25 @@ function NodeList() {
   this.length = 0
 }
 
+/**
+ * 增加链表元素
+ * @param {*} value
+ */
+NodeList.prototype.append = function (value) {
+  let node = new Node(value)
+  if (this.length === 0) {
+    this.head = node
+  } else {
+    let current = this.head
+    while (current.next) {
+      current = current.next
+    }
+    current.next = node
+  }
+  this.length++
+  return node
+}
+
 module.exports = {
   Tree,
   Node,

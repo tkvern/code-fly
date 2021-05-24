@@ -1,19 +1,4 @@
-const { Node, NodeList } = require('./base')
-
-NodeList.prototype.append = function (value) {
-  const node = new Node(value)
-  if (this.length === 0) {
-    this.head = node
-  } else {
-    let current = this.head
-    while (current.next) {
-      current = current.next
-    }
-    current.next = node
-  }
-  this.length++
-  return node
-}
+const { NodeList } = require('./base')
 
 NodeList.prototype.print = function () {
   if (this.length === 0) return []
