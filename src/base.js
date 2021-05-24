@@ -41,17 +41,17 @@ function createTree(nums) {
  * @param {number[]} nums
  * @returns
  */
-function sortedArrayToBST(nums) {
-  function createBalance(start, end) {
-    if (start > end) return null
-    let mid = Math.floor((start + end) / 2)
-    let root = new Tree(nums[mid])
-    root.left = createBalance(start, mid - 1)
-    root.right = createBalance(mid + 1, end)
-    return root
-  }
-  return createBalance(0, nums.length - 1)
-}
+// function sortedArrayToBST(nums) {
+//   function createBalance(start, end) {
+//     if (start > end) return null
+//     let mid = Math.floor((start + end) / 2)
+//     let root = new Tree(nums[mid])
+//     root.left = createBalance(start, mid - 1)
+//     root.right = createBalance(mid + 1, end)
+//     return root
+//   }
+//   return createBalance(0, nums.length - 1)
+// }
 
 /**
  * 前序列遍历二叉树
@@ -72,7 +72,7 @@ function preOrderTree(root) {
 }
 
 /**
- * 层序遍历二叉树
+ * 层序遍历二叉树，从左到右按层输出
  * @param {*} node
  */
 function levelOrderTree(root) {
@@ -80,12 +80,18 @@ function levelOrderTree(root) {
   let queue = [root]
   let res = []
   while (queue.length) {
-    let node = queue.shift()
-    if (!node) continue
-    if (node.val !== null) {
-      res.push(node.val)
+    let temp = []
+    let queueLength = queue.length
+    while (queueLength) {
+      let node = queue.shift()
+      node.left && queue.push(node.left)
+      node.right && queue.push(node.right)
+      queueLength--
+      if (node.val !== null) {
+        temp.push(node.val)
+      }
     }
-    queue.push(node.left, node.right)
+    res.push(temp)
   }
   return res
 }
@@ -133,5 +139,5 @@ module.exports = {
   createTree,
   preOrderTree,
   levelOrderTree,
-  sortedArrayToBST,
+  // sortedArrayToBST,
 }
