@@ -74,8 +74,9 @@ function preOrderTree(root) {
 /**
  * 层序遍历二叉树，从左到右按层输出
  * @param {*} node
+ * @param {boolean} isFilterNull 是否过滤null，默认false，tree 则不会输出 null
  */
-function levelOrderTree(root) {
+function levelOrderTree(root, isFilterNull = false) {
   if (!root) return []
   let queue = [root]
   let res = []
@@ -87,7 +88,9 @@ function levelOrderTree(root) {
       node.left && queue.push(node.left)
       node.right && queue.push(node.right)
       queueLength--
-      if (node.val !== null) {
+      if (isFilterNull) {
+        node.val !== null && temp.push(node.val)
+      } else {
         temp.push(node.val)
       }
     }
