@@ -1,4 +1,4 @@
-const { createTree, levelOrderTree } = require('./base')
+const { Tree } = require('./base')
 
 /**
  * 序列化二叉树
@@ -6,15 +6,19 @@ const { createTree, levelOrderTree } = require('./base')
  */
 function serialize(root) {
   if (!root) return '[]'
-  return `[${levelOrderTree(root)
-    .reduce((pre, current) => pre.concat(current), [])
-    .map((item) => {
-      if (item === null) {
-        item = 'null'
-      }
-      return item
-    })
-    .join(',')}]`
+  let queue = [root]
+  let res = ''
+  while (queue.length) {
+    let node = queue.shift()
+    if (node) {
+      res += node.val + ','
+      node.left !== null && queue.push(node.left)
+      node.right !== null && queue.push(node.right)
+    } else {
+      res += 'null' + ','
+    }
+  }
+  return `[${res.substring(0, res.length - 1)}]`
 }
 
 /**
@@ -34,7 +38,22 @@ function deserialize(data) {
       }
       return item
     })
-  return createTree(arr)
+  let root = new Tree(arr.shift())
+  let queue = [root]
+  while (queue.length) {
+    let node = queue.shift()
+    let leftVal = arr.shift()
+    if (leftVal !== undefined) {
+      node.left = new Tree(leftVal)
+      queue.push(node.left)
+    }
+    let rightVal = arr.shift()
+    if (rightVal !== undefined) {
+      node.right = new Tree(rightVal)
+      queue.push(node.right)
+    }
+  }
+  return root
 }
 
 module.exports = {
