@@ -2,7 +2,7 @@
  * 二叉树
  * @param {*} val
  */
-function Tree(val) {
+function TreeNode(val) {
   this.val = val
   this.left = this.right = null
 }
@@ -15,7 +15,7 @@ function Tree(val) {
 function createTree(nums) {
   let list = []
   for (let i = 0; i < nums.length; i++) {
-    let node = new Tree(nums[i])
+    let node = new TreeNode(nums[i])
     list.push(node)
   }
   if (list.length > 0) {
@@ -136,7 +136,7 @@ NodeList.prototype.append = function (value) {
 }
 
 module.exports = {
-  Tree,
+  TreeNode,
   Node,
   NodeList,
   createTree,

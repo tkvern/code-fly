@@ -1,4 +1,4 @@
-const { Tree } = require('./base')
+const { TreeNode } = require('./base')
 
 /**
  * 重建二叉树
@@ -20,7 +20,7 @@ function buildTree(preorder, inorder) {
     let preVal = preorder[preIdx]
     preIdx++
     let inIdx = inMap[preVal]
-    let node = new Tree(preVal)
+    let node = new TreeNode(preVal)
     node.left = func(start, inIdx - 1)
     node.right = func(inIdx + 1, end)
     return node
