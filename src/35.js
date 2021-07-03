@@ -1,3 +1,4 @@
+const { Node } = require('./base')
 function copyRandomList(head) {
   function copy(node) {
     if (!node) return null

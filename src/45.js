@@ -6,7 +6,6 @@ function minNumber(nums) {
   nums.sort((a, b) => {
     let s1 = a + '' + b
     let s2 = b + '' + a
-    console.log(s1, s2)
     if (s1 < s2) {
       return -1
     } else {

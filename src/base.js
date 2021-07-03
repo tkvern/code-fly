@@ -103,9 +103,10 @@ function levelOrderTree(root, isFilterNull = false) {
  * 链表节点
  * @param {*} value
  */
-function Node(value) {
+function Node(value, next, random) {
   this.value = value
-  this.next = null
+  this.next = next
+  this.random = random
 }
 
 /**
