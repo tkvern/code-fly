@@ -8,6 +8,7 @@ module.exports = {
     browser: true,
     commonjs: true,
     amd: true,
+    es6: true,
   },
   parserOptions: {
     ecmaVersion: 8, // or 2017
